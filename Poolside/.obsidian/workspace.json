@@ -185,6 +185,9 @@
   },
   "active": "e47000f61f887b8e",
   "lastOpenFiles": [
+    "Meetings/_template-meeting.md",
+    "Meetings",
+    "Resources/Agent-Guide.md",
     "Patterns/Parse-at-Boundaries.md",
     "Welcome.md",
     "Untitled.canvas",
@@ -219,9 +222,6 @@
     "_sources/deck/internal/state/redis_store_test.go",
     "_sources/forge/pkg/infra/AGENTS.md",
     "_sources/server-devops/docs/quickstart.md",
-    "Resources/Project-Guide.md",
-    "Projects/Demos.md",
-    "Projects/Deck.md",
-    "_sources"
+    "Resources/Project-Guide.md"
   ]
 }

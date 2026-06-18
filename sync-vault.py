@@ -3,8 +3,14 @@
 Obsidian Vault Sync Script
 Scans poolsideai directories and updates the vault with project metadata and daily notes.
 
-Cron setup (runs at 6 PM daily):
+USAGE FOR AGENTS:
+    python3 sync-vault.py --daily        # Update today's note with commits
+    python3 sync-vault.py --scan          # Refresh project metadata
+
+CRON (runs at 6 PM daily):
     0 18 * * * cd /Users/matthew.fisher/poolsideai/obsidian-vault && /usr/bin/python3 sync-vault.py --daily
+
+FOR AGENTS: To add new content, see Poolside/Resources/Agent-Guide.md
 """
 
 import os
