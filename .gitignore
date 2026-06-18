@@ -1,0 +1,18 @@
+# Obsidian vault gitignore
+.DS_Store
+.vscode/
+.idea/
+
+# Exclude daily notes that may contain sensitive commit info
+Daily/*.md
+
+# Exclude any local instance files
+*.instance.json
+
+# Node/Python artifacts that might be created in vault
+node_modules/
+__pycache__/
+*.pyc
+
+# Sync script output
+.vault-sync-cache/

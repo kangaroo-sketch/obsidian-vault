@@ -1,0 +1,15 @@
+{
+  "Templates": {
+    "default_templates": {
+      "Project": {
+        "path": "_templates/Project.md"
+      },
+      "Daily": {
+        "path": "_templates/Daily.md"
+      },
+      "Decision": {
+        "path": "_templates/Decision.md"
+      }
+    }
+  }
+}
